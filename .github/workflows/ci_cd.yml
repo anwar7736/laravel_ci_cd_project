@@ -1,0 +1,16 @@
+name: "First Laravel CI/CD Project"
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: First Laravel CI/CD testing
+        run: echo "First Laravel CI/CD testing"
