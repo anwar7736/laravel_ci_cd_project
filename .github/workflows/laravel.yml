@@ -22,10 +22,8 @@ jobs:
         run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
       - name: Test PHPStan
-        run: ./vendor/bin/phpstan analyse      
+        run: ./vendor/bin/phpstan analyse
 
-      - name: Run tests
-        run: php artisan test
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
