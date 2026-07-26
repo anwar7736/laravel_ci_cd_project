@@ -21,6 +21,18 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install NPM dependencies
+        run: npm ci
+
+      - name: Build frontend assets
+        run: npm run build
+
       - name: Test PHPStan
         run: ./vendor/bin/phpstan analyse
 
@@ -44,7 +56,10 @@ jobs:
             --no-interaction \
             --prefer-dist \
             --optimize-autoloader
-            
+
+            npm ci
+            npm run build
+
             php artisan migrate --force
             
             php artisan optimize:clear
