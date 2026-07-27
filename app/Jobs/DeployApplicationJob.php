@@ -16,11 +16,15 @@ class DeployApplicationJob implements ShouldQueue
     {
         try {
 
-            Log::channel('deploy')->info('========== DEPLOY START ==========');
+            if (PHP_OS_FAMILY === 'Windows') {
+                Log::channel('deploy')->info('Deployment skipped on Windows.');
+                return;
+                }
 
+            Log::channel('deploy')->info('========== DEPLOY START ==========');
             $result = Process::timeout(900)->run([
                 'bash',
-                base_path('scripts/deploy.sh'),
+                base_path('deploy.sh'),
             ]);
 
             Log::channel('deploy')->info($result->output());
