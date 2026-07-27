@@ -2,23 +2,23 @@
 
 set -e
 
-# Ensure we are running from the project root
 cd "$(dirname "$0")"
 
-echo "===== DEPLOY START ====="
-echo "Current directory: $(pwd)"
+GIT="/usr/local/cpanel/3rdparty/lib/path-bin/git"
+PHP="/usr/local/bin/php"
+COMPOSER="/home/softitglobal/bin/composer"
 
-echo "Pulling latest code..."
-git pull origin main
+echo "Git Pull..."
+$GIT pull origin main
 
-echo "Installing dependencies..."
-composer install --no-dev --optimize-autoloader --no-interaction
+echo "Composer..."
+$COMPOSER install --no-dev --optimize-autoloader --no-interaction
 
-echo "Running migrations..."
-php artisan migrate --force
+echo "Migration..."
+$PHP artisan migrate --force
 
-echo "Clearing and rebuilding cache..."
-php artisan optimize:clear
-php artisan optimize
+echo "Cache..."
+$PHP artisan optimize:clear
+$PHP artisan optimize
 
-echo "===== DEPLOY SUCCESS ====="
+echo "Finished"
