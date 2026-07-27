@@ -17,6 +17,14 @@ class VerifyGithubWebhook
                 'message' => 'Missing signature.'
             ], 401);
         }
+
+        if ($request->input('ref') !== 'refs/heads/main') {
+            return response()->json([
+                'success' => false,
+                'message' => 'Ignored.',
+            ]);
+        }
+
         $secret = config('services.github.webhook_secret');
 
         $hash = 'sha256=' . hash_hmac(
@@ -30,13 +38,6 @@ class VerifyGithubWebhook
                 'success' => false,
                 'message' => 'Invalid webhook signature.'
             ], 403);
-        }
-
-        if ($request->input('ref') !== 'refs/heads/main') {
-            return response()->json([
-                'success' => false,
-                'message' => 'Ignored.',
-            ]);
         }
 
         return $next($request);
