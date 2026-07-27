@@ -25,6 +25,8 @@ class VerifyGithubWebhook
             $secret
         );
 
+        dd($hash);
+
         if (! hash_equals($hash, $signature)) {
             return response()->json([
                 'success' => false,
