@@ -1,0 +1,147 @@
+[26-Jul-2026 06:41:04 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.34. in /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/autoload_real.php(25): require()
+#1 /home/softitglobal/alumni.softitglobal.xyz/vendor/autoload.php(22): ComposerAutoloaderInita8f6137c8c8f47ba4c1c689275948bf3::getLoader()
+#2 /home/softitglobal/alumni.softitglobal.xyz/public/index.php(14): require('/home/softitglo...')
+#3 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/platform_check.php on line 22
+[26-Jul-2026 06:41:55 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.34. in /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/autoload_real.php(25): require()
+#1 /home/softitglobal/alumni.softitglobal.xyz/vendor/autoload.php(22): ComposerAutoloaderInita8f6137c8c8f47ba4c1c689275948bf3::getLoader()
+#2 /home/softitglobal/alumni.softitglobal.xyz/public/index.php(14): require('/home/softitglo...')
+#3 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/platform_check.php on line 22
+[26-Jul-2026 06:41:57 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.34. in /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/autoload_real.php(25): require()
+#1 /home/softitglobal/alumni.softitglobal.xyz/vendor/autoload.php(22): ComposerAutoloaderInita8f6137c8c8f47ba4c1c689275948bf3::getLoader()
+#2 /home/softitglobal/alumni.softitglobal.xyz/public/index.php(14): require('/home/softitglo...')
+#3 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/composer/platform_check.php on line 22
+[26-Jul-2026 07:08:13 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello World!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jul-2026 07:08:16 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello World!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jul-2026 14:09:59 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello World!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jul-2026 14:11:52 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello Bangladesh!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jul-2026 14:12:06 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello Bangladesh!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jul-2026 14:13:10 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello Bangladesh!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jul-2026 14:13:53 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello Bangladesh!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jul-2026 14:13:57 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello Bangladesh!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jul-2026 14:39:47 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at laravel-serializable-closure://function () {
+    echo "<h2>Hello Bangladesh!</h2>";
+}:3) in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/softitglo...', 322)
+#2 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/softitglobal/alumni.softitglobal.xyz/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#8 {main}
+  thrown in /home/softitglobal/alumni.softitglobal.xyz/vendor/symfony/http-foundation/Response.php on line 322
